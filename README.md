@@ -1,15 +1,12 @@
 # -
 图片懒加载技术
 
-前端实现图片懒加载(lazyload)的两种方式
+# -前端实现图片懒加载(lazyload)的两种方式
 
-
-思路：
+# -思路：
 将页面里所有img属性src属性用data-xx代替，当页面滚动直至此图片出现在可视区域时，用js取到该图片的data-xx的值赋给src。
 
- 
-
-关于各种宽高：
+# -关于各种宽高：
 
 页可见区域宽： document.body.clientWidth;
 网页可见区域高： document.body.clientHeight;
@@ -77,7 +74,7 @@ dome演示地址：http://h5.sztoda.cn/test/testLazyLoad
 
  
 
-echo.js方式
+# -echo.js方式
 在前面“前端知识的一些总结”的博文中，介绍了一款非常简单实用轻量级的图片延时加载插件echo.js，如果你的项目中没有依赖jquery，那么这将是个不错的选择，50行代码，压缩后才1k。当然你完全可以集成到自己项目中去！
 
 下载地址：https://github.com/helijun/helijun/tree/master/plugin/echo
